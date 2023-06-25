@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .googleforms{
+            color: rgb(103, 35, 135);
+            width: 450px;
+            background-color: rgb(218, 161, 86);
+            border: 5px solid rgb(85, 189, 130);
+            padding: auto;
+            margin: auto;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .button{
+            background-color: rgb(176, 103, 103);
+            width: auto;
+            border: none;
+            font-weight: bold;
+            padding: auto;
+            margin: auto;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Forms -->
+    <h1>FORMS</h1>
+    <form action="backend.php" class="googleforms">
+        <div>
+            Name: <input type="text" name="Myname" placeholder="enter name">
+        </div>
+        <br>
+        <div>
+            Role: <input type="text" name="Myrole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="Myemail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="Mydate">
+        </div>
+        <br>
+        <div>
+            No.of papers:<input type="number" name="Mynumber">
+        </div>
+        <br>
+        <div>
+             Gender: Male <input type="radio" name="Mygender"> Female <input type="radio" name="Mygender">
+        </div>
+        <br>
+        <div>
+            Terms and conditions: <input type="checkbox" name="Myterms">
+        </div>
+        <br>
+        <div>
+            <select name="Car">
+                <option value="indica">indica</option>
+                <option value="swift">swift</option>
+                <option value="BMW">bmw</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+        <button class="button">Click Now</button>
+
+    </form>
+
+    <!-- inline nd block elms -->
+    <!-- <h2>inline nd block elms</h2> -->
+    <!-- <P style="border:2px solid red;">Lorem, ipsum dolor</P> <p style="border:2px solid green;">Lorem, ipsum there</p> -->
+    <!-- <span>this is the book</span> <span>this is the pen</span> -->
+    
+</body>
+</html>
